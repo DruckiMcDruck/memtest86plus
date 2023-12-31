@@ -91,8 +91,8 @@ bool            exclude_ecores     = true;
 
 bool            smp_enabled        = true;
 
-bool            enable_big_status  = true;
-bool            enable_temperature = true;
+bool            enable_big_status  = false;
+bool            enable_temperature = false;
 bool            enable_trace       = false;
 
 bool            enable_sm          = true;
@@ -101,7 +101,7 @@ bool            enable_mch_read    = true;
 
 bool            enable_ecc_polling = false;
 
-bool            pause_at_start     = true;
+bool            pause_at_start     = false;
 
 power_save_t    power_save         = POWER_SAVE_HIGH;
 
